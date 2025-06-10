@@ -57,6 +57,17 @@ fun dataTypes() {
     // Char: Single character
     val letter: Char = 'A'
     println("Char: $letter")
+
+    /**
+     * String
+     * Immutable text data
+     * Interpolatable
+     */
+
+    val firstname = "John"
+    var lastname = "Chena"
+    lastname = "Doe"
+    println("$firstname $lastname")
 }
 
 fun lessonOne() {
